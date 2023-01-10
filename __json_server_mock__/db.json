@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Yu Zuo"
+    },
+    {
+      "id": 2,
+      "name": "Spring Chen"
+    },
+    {
+      "id": 3,
+      "name": "Zozo Zuo"
+    },
+    {
+      "id": 4,
+      "name": "John Doe"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Async Project",
+      "personId": 1,
+      "organization": "Tech Fleet",
+      "created": 1604989757139
+    },
+    {
+      "id": 2,
+      "name": "NBA Dashboard",
+      "personId": 2,
+      "organization": "Personal",
+      "created": 1604989757139
+    },
+    {
+      "id": 3,
+      "name": "NeetCode 150",
+      "personId": 2,
+      "organization": "LeetCode",
+      "created": 1546300800000
+    },
+    {
+      "id": 4,
+      "name": "Championship",
+      "personId": 3,
+      "organization": "Boston Celtics",
+      "created": 1604980000011
+    },
+    {
+      "id": 5,
+      "name": "Interview",
+      "personId": 4,
+      "organization": "Chewy",
+      "created": 1546900800000
+    }
+  ]
+}
