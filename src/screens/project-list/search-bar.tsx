@@ -1,5 +1,21 @@
+export interface User {
+    id: string,
+    name: string,
+    email: string,
+    title: string,
+    organization: string,
+}
 
-export const SearchBar = ({users, param, setParam}) => {
+interface SearchBarProps {
+    users: User[],
+    param: {
+        name: string;
+        personId: string;
+    },
+    setParam: (param: SearchBarProps['param']) => void;
+}
+
+export const SearchBar = ({users, param, setParam}: SearchBarProps) => {
 
     return <form>
         <div>
